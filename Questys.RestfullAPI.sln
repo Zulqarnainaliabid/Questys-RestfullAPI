@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{EC45674D-DE19-4B8A-B95B-4337D3195DB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{5C43C419-9AAD-4F51-852F-A6C4C673869E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{573CCD85-0510-4DC5-A126-EB77242D59F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{A476E6EC-34E5-4B9A-944E-E8911CDBD47C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documents", "documents", "{33BDF557-A500-46F4-B854-7F11FF8DEC1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8D76D2B-2A76-48D7-B89C-5BEE8F624827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{74F89AAB-847E-4FE9-A173-977A166C8A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Documents.Api", "Questys.RestfullAPI.Documents.Api\Questys.RestfullAPI.Documents.Api.csproj", "{677ADF69-7B8C-4346-89B1-A5FF9056B573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Repository.Api", "Questys.RestfullAPI.Repository.Api\Questys.RestfullAPI.Repository.Api.csproj", "{5336BCE2-0604-43C0-9C12-3F76573E7888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Shared.ServiceHelper", "Questys.RestfullAPI.Shared.ServiceHelper\Questys.RestfullAPI.Shared.ServiceHelper.csproj", "{2D1DDA87-7BC6-4DC0-B1D9-CFE9E29F3CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repository", "repository", "{A96D49E2-5537-40C5-8917-C42013CF1A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FCB725A-D8B0-4331-B8B2-D711F74B4D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E4CB3D2-F342-478D-88FA-41B263E32AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Repository.Application", "Questys.RestfullAPI.Repository.Application\Questys.RestfullAPI.Repository.Application.csproj", "{02FD1CEC-E41E-410F-B637-D516FCE94EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Repository.Application.Contracts", "Questys.RestfullAPI.Repository.Application.Contracts\Questys.RestfullAPI.Repository.Application.Contracts.csproj", "{A8263C60-FEB0-44E6-91A7-345F7F412A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Repository.HttpApi", "Questys.RestfullAPI.Repository.HttpApi\Questys.RestfullAPI.Repository.HttpApi.csproj", "{1E7F7657-226F-4EDE-944D-E236F2BF5144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Shared", "Questys.RestfullAPI.Shared\Questys.RestfullAPI.Shared.csproj", "{842EF8B5-FE26-4914-9BB2-CDCCFC3E3751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questys.RestfullAPI.Shared.ServiceHelper.Common", "Questys.RestfullAPI.Shared.ServiceHelper.Common\Questys.RestfullAPI.Shared.ServiceHelper.Common.csproj", "{21798DFB-702B-45DF-B36B-7FABEEBC58BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677ADF69-7B8C-4346-89B1-A5FF9056B573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677ADF69-7B8C-4346-89B1-A5FF9056B573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677ADF69-7B8C-4346-89B1-A5FF9056B573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677ADF69-7B8C-4346-89B1-A5FF9056B573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5336BCE2-0604-43C0-9C12-3F76573E7888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5336BCE2-0604-43C0-9C12-3F76573E7888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5336BCE2-0604-43C0-9C12-3F76573E7888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5336BCE2-0604-43C0-9C12-3F76573E7888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1DDA87-7BC6-4DC0-B1D9-CFE9E29F3CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1DDA87-7BC6-4DC0-B1D9-CFE9E29F3CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1DDA87-7BC6-4DC0-B1D9-CFE9E29F3CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1DDA87-7BC6-4DC0-B1D9-CFE9E29F3CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FD1CEC-E41E-410F-B637-D516FCE94EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FD1CEC-E41E-410F-B637-D516FCE94EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FD1CEC-E41E-410F-B637-D516FCE94EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FD1CEC-E41E-410F-B637-D516FCE94EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8263C60-FEB0-44E6-91A7-345F7F412A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8263C60-FEB0-44E6-91A7-345F7F412A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8263C60-FEB0-44E6-91A7-345F7F412A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8263C60-FEB0-44E6-91A7-345F7F412A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7F7657-226F-4EDE-944D-E236F2BF5144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7F7657-226F-4EDE-944D-E236F2BF5144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7F7657-226F-4EDE-944D-E236F2BF5144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7F7657-226F-4EDE-944D-E236F2BF5144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842EF8B5-FE26-4914-9BB2-CDCCFC3E3751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842EF8B5-FE26-4914-9BB2-CDCCFC3E3751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842EF8B5-FE26-4914-9BB2-CDCCFC3E3751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842EF8B5-FE26-4914-9BB2-CDCCFC3E3751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21798DFB-702B-45DF-B36B-7FABEEBC58BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21798DFB-702B-45DF-B36B-7FABEEBC58BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21798DFB-702B-45DF-B36B-7FABEEBC58BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21798DFB-702B-45DF-B36B-7FABEEBC58BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33BDF557-A500-46F4-B854-7F11FF8DEC1C} = {573CCD85-0510-4DC5-A126-EB77242D59F7}
+		{D8D76D2B-2A76-48D7-B89C-5BEE8F624827} = {33BDF557-A500-46F4-B854-7F11FF8DEC1C}
+		{74F89AAB-847E-4FE9-A173-977A166C8A30} = {33BDF557-A500-46F4-B854-7F11FF8DEC1C}
+		{677ADF69-7B8C-4346-89B1-A5FF9056B573} = {5C43C419-9AAD-4F51-852F-A6C4C673869E}
+		{5336BCE2-0604-43C0-9C12-3F76573E7888} = {5C43C419-9AAD-4F51-852F-A6C4C673869E}
+		{2D1DDA87-7BC6-4DC0-B1D9-CFE9E29F3CC5} = {A476E6EC-34E5-4B9A-944E-E8911CDBD47C}
+		{A96D49E2-5537-40C5-8917-C42013CF1A38} = {573CCD85-0510-4DC5-A126-EB77242D59F7}
+		{5FCB725A-D8B0-4331-B8B2-D711F74B4D9D} = {A96D49E2-5537-40C5-8917-C42013CF1A38}
+		{4E4CB3D2-F342-478D-88FA-41B263E32AC3} = {A96D49E2-5537-40C5-8917-C42013CF1A38}
+		{02FD1CEC-E41E-410F-B637-D516FCE94EF4} = {5FCB725A-D8B0-4331-B8B2-D711F74B4D9D}
+		{A8263C60-FEB0-44E6-91A7-345F7F412A4D} = {5FCB725A-D8B0-4331-B8B2-D711F74B4D9D}
+		{1E7F7657-226F-4EDE-944D-E236F2BF5144} = {5FCB725A-D8B0-4331-B8B2-D711F74B4D9D}
+		{842EF8B5-FE26-4914-9BB2-CDCCFC3E3751} = {5FCB725A-D8B0-4331-B8B2-D711F74B4D9D}
+		{21798DFB-702B-45DF-B36B-7FABEEBC58BD} = {A476E6EC-34E5-4B9A-944E-E8911CDBD47C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04E30854-9B9B-499E-86D1-941A7621D356}
+	EndGlobalSection
+EndGlobal

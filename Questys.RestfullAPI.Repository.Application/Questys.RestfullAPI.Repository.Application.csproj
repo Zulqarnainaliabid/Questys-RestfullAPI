@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AutoMapper" Version="2.1.1" />
+		<PackageReference Include="Volo.Abp.Ddd.Application" Version="2.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Questys.RestfullAPI.Repository.Application.Contracts\Questys.RestfullAPI.Repository.Application.Contracts.csproj" />
+	  <ProjectReference Include="..\Questys.RestfullAPI.Shared\Questys.RestfullAPI.Shared.csproj" />
+	</ItemGroup>
+</Project>
